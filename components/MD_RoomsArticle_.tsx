@@ -6,25 +6,25 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-interface MD_Article0_Props {}
+interface MD_RoomsArticle_Props {}
 
-const MD_Article0_ = ({}: MD_Article0_Props) => {
+const MD_RoomsArticle_ = ({}: MD_RoomsArticle_Props) => {
   return (
     <div>
       <div className={`w-full h-[400px] bg-black relative`}>
         <div
-          className={`w-full h-full flex flex-row justify-center items-center pt-[100px] bg-[#2e2c2d]/60 absolute top-0 right-0 `}
+          className={`w-full h-full flex md:flex-row flex-col justify-center items-center pt-[100px] bg-[#2e2c2d]/60 absolute top-0 right-0 `}
         >
           <div
             className={`flex flex-col justify-center items-center pt-[250px]`}
           >
             <p
-              className={`text-[45px] text-white/70 font-bold Oswald_ mb-4 text-right tracking-[1px] w-[400px]`}
+              className={`text-[45px] text-white/70 font-bold Oswald_ mb-4 md:text-right text-center tracking-[1px] w-[400px]`}
             >
               Work break on us!
             </p>
             <div
-              className={`w-[400px] min-h-[350px] text-white/40 text-[14px] font-light text-right`}
+              className={`w-[400px] min-h-[350px] text-white/40 text-[14px] font-light md:text-right text-center`}
             >
               Cillum nulla eu sint reprehenderit. Pariatur commodo sunt non ea
               ut laboris voluptate nulla incididunt. Laborum minim officia
@@ -35,7 +35,7 @@ const MD_Article0_ = ({}: MD_Article0_Props) => {
           </div>
           <div className={`flex flex-row justify-center items-center`}>
             <div
-              className={`w-[500px] h-[320px] rounded-[2px] relative ml-6 overflow-hidden`}
+              className={`w-[500px] h-[320px] rounded-[2px] relative md:ml-6 overflow-hidden`}
             >
               <img
                 src={`/assets/images/SmokeRoom.jpg`}
@@ -43,10 +43,10 @@ const MD_Article0_ = ({}: MD_Article0_Props) => {
               />
             </div>
             <div
-              className={`w-[175px] min-h-[20px] bg-[red] rounded-[2px] relative ml-4 bottom-[26px] overflow-hidden`}
+              className={`w-[175px] min-h-[20px] rounded-[2px] relative ml-4 md:bottom-[26px] bottom-[0px] overflow-hidden`}
             >
               <img
-                src={`https://images.pexels.com/photos/7667812/pexels-photo-7667812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1`}
+                src={`/assets/images/SmokeRoom1.webp`}
                 className={`w-full object-cover relative opacity-90`}
               />
             </div>
@@ -191,4 +191,4 @@ const MD_Article0_ = ({}: MD_Article0_Props) => {
   );
 };
 
-export default MD_Article0_;
+export default MD_RoomsArticle_;

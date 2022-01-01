@@ -2,25 +2,25 @@ interface MD_Strains_Props {}
 
 const MD_Strains_ = ({}: MD_Strains_Props) => {
   return (
-    <div>
+    <div className={`min-h-[200px]`}>
       <div
-        className={`w-[1200px] h-[200px] relative top-[-100px] mb-[0px] flex flex-col justify-center items-center`}
+        className={`md:w-[1200px] sm:w-full h-[200px] relative top-[-100px] mb-[0px] flex flex-col justify-center items-center`}
       >
         <p className={`text-[30px] font-black text-white/70 mb-2`}>
           Recent Strain Imports
         </p>
         <p
-          className={`w-[40%] mx-auto text-[14px] text-white/50 Work_ font-light text-center relative`}
+          className={`md:w-[40%] w-[400px] mx-auto text-[14px] text-white/50 Work_ font-light text-center relative`}
         >
           Magna irure dolor labore nulla eu commodo deserunt labore duis laboris
           irure. Ipsum eu laborum ex aliqua sunt est ulla.
         </p>
       </div>
       <div
-        className={`w-[1200] h-[350px] relative top-[-100px] flex flex-row justify-center items-center`}
+        className={`w-[1200] min-h-[350px] relative top-[-100px] flex md:flex-row flex-col justify-center items-center`}
       >
         <div
-          className={`w-[300px] h-[400px] mx-4 rounded-[10px] bg-[#212121] border-solid border-[1px] border-[#4de850]/50 flex flex-col pt-[40px] cursor-pointer`}
+          className={`w-[300px] h-[400px] mx-4 my-2 rounded-[10px] bg-[#212121] border-solid border-[1px] border-[#4de850]/50 flex flex-col pt-[40px] cursor-pointer`}
         >
           <img
             src={`/assets/images/NugZero.png`}
@@ -39,7 +39,7 @@ const MD_Strains_ = ({}: MD_Strains_Props) => {
           </p>
         </div>
         <div
-          className={`w-[300px] h-[400px] mx-4 rounded-[10px] bg-[#212121] border-solid border-[1px] border-transparent flex flex-col pt-[40px] hover:border-[#4de850]/50 transition-all duration-200`}
+          className={`w-[300px] h-[400px] mx-4 my-2 rounded-[10px] bg-[#212121] border-solid border-[1px] border-transparent flex flex-col pt-[40px] hover:border-[#4de850]/50 transition-all duration-200 cursor-pointer`}
         >
           <img
             src={`/assets/images/NugTwo.png`}
@@ -58,7 +58,7 @@ const MD_Strains_ = ({}: MD_Strains_Props) => {
           </p>
         </div>
         <div
-          className={`w-[300px] h-[400px] mx-4 rounded-[10px] bg-[#212121] border-solid border-[1px] border-transparent flex flex-col pt-[40px] hover:border-[#4de850]/50 transition-all duration-200`}
+          className={`w-[300px] h-[400px] mx-4 my-2 rounded-[10px] bg-[#212121] border-solid border-[1px] border-transparent flex flex-col pt-[40px] hover:border-[#4de850]/50 transition-all duration-200 cursor-pointer`}
         >
           <img
             src={`/assets/images/NugThree.png`}
