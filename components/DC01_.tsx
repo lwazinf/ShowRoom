@@ -135,9 +135,9 @@ const DC01_ = ({}: DC01_Props) => {
             >
               <TwitterShareButton
                 title={
-                  "Send @LwaziNF a DM with your ideas.. Build your brand site online today!"
+                  "Send @LwaziNF a DM with your ideas.. Build your brand site online today! View more designs at"
                 }
-                url={"http://showroom.lwazinf.com"}
+                url={"https://showroom.lwazinf.com"}
                 hashtags={["business", "ui"]}
               >
                 <FontAwesomeIcon
