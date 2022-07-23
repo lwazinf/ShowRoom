@@ -137,8 +137,8 @@ const DC01_ = ({}: DC01_Props) => {
                 title={
                   "Send @LwaziNF a DM with your ideas.. Build your brand site online today!"
                 }
-                url={"http://lwazinf.com"}
-                hashtags={[]}
+                url={"http://showroom.lwazinf.com"}
+                hashtags={["business", "ui"]}
               >
                 <FontAwesomeIcon
                   icon={faShare}
