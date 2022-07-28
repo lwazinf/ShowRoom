@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Oswald:wght@200;300;600&family=Work+Sans:ital,wght@0,200;0,400;0,600;1,100&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -27,31 +28,27 @@
       }
     
       .topFade {
-        background: rgb(0,0,0);
-        background: -moz-linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 19%, rgba(0,212,255,0) 57%);
-        background: -webkit-linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 19%, rgba(0,212,255,0) 57%);
-        background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 19%, rgba(0,212,255,0) 57%);
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#00d4ff",GradientType=1); 
+        background: rgb(51,49,50);
+        background: -moz-linear-gradient(180deg, rgba(51,49,50,1) 0%, rgba(51,49,50,1) 19%, rgba(255,255,255,0) 57%);
+        background: -webkit-linear-gradient(180deg, rgba(51,49,50,1) 0%, rgba(51,49,50,1) 19%, rgba(255,255,255,0) 57%);
+        background: linear-gradient(180deg, rgba(51,49,50,1) 0%, rgba(51,49,50,1) 19%, rgba(255,255,255,0) 57%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#333132",endColorstr="#ffffff",GradientType=1);  
       }
     
       .bottomFade {
-        background: rgb(0, 0, 0);
-        background: -moz-linear-gradient(
-          0deg,
-          rgba(0, 0, 0, 1) 0%,
-          rgba(0, 212, 255, 0) 100%
-        );
-        background: -webkit-linear-gradient(
-          0deg,
-          rgba(0, 0, 0, 1) 0%,
-          rgba(0, 212, 255, 0) 100%
-        );
-        background: linear-gradient(
-          0deg,
-          rgba(0, 0, 0, 1) 0%,
-          rgba(0, 212, 255, 0) 100%
-        );
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#00d4ff",GradientType=1);
+        background: rgb(51,49,50);
+        background: -moz-linear-gradient(0deg, rgba(51,49,50,1) 0%, rgba(51,49,50,1) 19%, rgba(255,255,255,0) 57%);
+        background: -webkit-linear-gradient(0deg, rgba(51,49,50,1) 0%, rgba(51,49,50,1) 19%, rgba(255,255,255,0) 57%);
+        background: linear-gradient(0deg, rgba(51,49,50,1) 0%, rgba(51,49,50,1) 19%, rgba(255,255,255,0) 57%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#333132",endColorstr="#ffffff",GradientType=1); 
+      }
+
+      .rightFade {
+        background: rgb(51,49,50);
+        background: -moz-linear-gradient(324deg, rgba(51,49,50,1) 0%, rgba(51,49,50,1) 19%, rgba(255,255,255,0) 57%);
+        background: -webkit-linear-gradient(324deg, rgba(51,49,50,1) 0%, rgba(51,49,50,1) 19%, rgba(255,255,255,0) 57%);
+        background: linear-gradient(324deg, rgba(51,49,50,1) 0%, rgba(51,49,50,1) 19%, rgba(255,255,255,0) 57%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#333132",endColorstr="#ffffff",GradientType=1); 
       }
     
       .Oswald_ {
