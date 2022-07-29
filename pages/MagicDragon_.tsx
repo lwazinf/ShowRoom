@@ -68,7 +68,36 @@ const MagicDragon_ = ({}: MagicDragon_Props) => {
             About Us
           </p>
         </div>
-        <div className={`absolute top-[60px] left-[150px] w-[150px] h-[80px] opacity-80`}>
+        <div
+          className={`w-full h-screen bg-black/10 absolute top-0 right-0 flex flex-row items-center justify-center`}
+        >
+          <div className={`w-[500px] h-[400px] rounded-[4px] relative right-9`}>
+            <p className={`text-[60px] font-black text-white/70 text-right`}>
+              DON'T BE SHY
+            </p>
+            <p
+              className={`text-[40px] font-normal Oswald_ text-white/50 text-right relative bottom-[20px]`}
+            >
+              STOP BY AND SAY
+            </p>
+            <p
+              className={`text-[150px] font-black Monts_ text-pink-400/60 text-right relative bottom-[20px]`}
+            >
+              HIGH
+            </p>
+            <div
+              className={`w-[120px] h-[40px] mr-[12px] relative top-[-50px] ml-auto rounded-[4px] bg-white/80 flex flex-row justify-center items-center`}
+            >
+              <p className={`text-[13px] text-black/70 font-black`}>
+                Learn more
+              </p>
+            </div>
+          </div>
+          
+        </div>
+        <div
+          className={`absolute top-[60px] left-[150px] w-[150px] h-[80px] opacity-80`}
+        >
           <div className={`relative overflow-hidden w-full h-full`}>
             <img
               src={`https://magicdragon.shop/wp-content/uploads/2021/09/cropped-MD-logo-slogan-PNG.png`}
