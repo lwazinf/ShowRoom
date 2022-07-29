@@ -86,7 +86,7 @@ const MagicDragon_ = ({}: MagicDragon_Props) => {
               HIGH
             </p>
             <div
-              className={`w-[120px] h-[40px] mr-[12px] relative top-[-50px] ml-auto rounded-[4px] bg-white/80 flex flex-row justify-center items-center`}
+              className={`w-[120px] h-[40px] mr-[12px] relative top-[-50px] ml-auto rounded-[4px] bg-[#4de850]/60 flex flex-row justify-center items-center`}
             >
               <p className={`text-[13px] text-black/70 font-black`}>
                 Make Order
@@ -197,27 +197,53 @@ const MagicDragon_ = ({}: MagicDragon_Props) => {
           className={`w-full h-full absolute top-0 right-0 flex flex-col pt-[50px] justify-center items-center`}
         >
           <p
-            className={`text-[25px] font-thin italic Monts_ top-[95px] left-[275px] text-white/60 relative`}
+            className={`text-[25px] font-thin italic Monts_ top-[95px] left-[275px] text-yellow-400/70 relative`}
           >
             Magic Dragon Centurion is now open..
           </p>
           <p
-            className={`text-[15px] font-black italic Monts_ top-[100px] left-[410px] text-[#4de850]/60 relative`}
+            className={`text-[15px] font-black italic Monts_ top-[100px] left-[410px] text-white/60 relative`}
           >
             9AM to 5PM - Weekdays
           </p>
           <p
-            className={`text-[15px] font-black italic Monts_ top-[100px] left-[416px] text-[#4de850]/60 relative`}
+            className={`text-[15px] font-black italic Monts_ top-[100px] left-[416px] text-white/60 relative`}
           >
             10AM to 3PM - Weekends
           </p>
           <div
-              className={`w-[120px] h-[40px] relative top-[130px] left-[460px] rounded-[4px] bg-white/80 flex flex-row justify-center items-center`}
+            className={`w-[120px] h-[40px] relative top-[130px] left-[460px] rounded-[4px] bg-[#4de850]/60 flex flex-row justify-center items-center`}
+          >
+            <p className={`text-[13px] text-black/70 font-black`}>
+              Book A Visit
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className={`w-full h-[400px] bg-black relative`}>
+        <div
+          className={`w-full h-full flex flex-row justify-center items-center pt-[150px] bg-[#2e2c2d]/60 absolute top-0 right-0 `}
+        >
+          <div className={`flex flex-col justify-center items-center pt-[250px]`}>
+            <p className={`text-[45px] text-white/70 font-bold Oswald_ mb-4 text-right tracking-[1px] w-[400px]`}>
+              Work break on us!
+            </p>
+            <div
+              className={`w-[400px] min-h-[350px] text-white/40 text-[14px] font-light text-right`}
             >
-              <p className={`text-[13px] text-black/70 font-black`}>
-                Book A Visit
-              </p>
+              Cillum nulla eu sint reprehenderit. Pariatur commodo sunt non ea
+              ut laboris voluptate nulla incididunt. Laborum minim officia
+              cillum eiusmod ullamco ipsum sit duis qui occaecat.Magna velit
+              nisi elit est cupidatat ut officia eiusmod aute reprehenderit
+              reprehenderit ullamco.
             </div>
+          </div>
+          <div className={`w-[600px] h-[320px] rounded-[2px] relative bottom-[65px] ml-6 overflow-hidden`}>
+            <img src={`/assets/images/SmokeRoom.jpg`} className={`w-full object-cover relative bottom-[400px] opacity-50`}/>
+          </div>
+          <div className={`w-[300px] h-[320px] rounded-[2px] relative bottom-[65px] ml-4 overflow-hidden`}>
+            <img src={`https://images.pexels.com/photos/7667812/pexels-photo-7667812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1`} className={`W-full object-cover relative bottom-[70px] opacity-70`}/>
+          </div>
         </div>
       </div>
     </div>
