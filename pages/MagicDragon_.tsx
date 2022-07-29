@@ -11,19 +11,19 @@ interface MagicDragon_Props {}
 const MagicDragon_ = ({}: MagicDragon_Props) => {
   return (
     <div
-      className={`flex flex-col items-center justify-start min-h-screen w-full relative overflow-hidden z-[-2] bg-[#333132]`}
+      className={`flex flex-col items-center justify-start min-h-screen w-full relative overflow-hidden z-[-2] bg-[#2e2c2d]`}
     >
       <div className={`w-full h-screen relative`}>
         <img
           src={`/assets/images/Plant.jpg`}
           className={`h-full w-full object-cover z-[0]`}
         />
-        <div className={`absolute top-0 w-full h-full bottomFade`}></div>
+        <div className={`absolute top-0 w-full h-full bottomFadeLight`}></div>
         <div
-          className={`absolute top-0 w-full h-full topFade opacity-70`}
+          className={`absolute top-0 w-full h-full topFadeLight opacity-70`}
         ></div>
         <div
-          className={`absolute top-0 w-full h-full rightFade opacity-60`}
+          className={`absolute top-0 w-full h-full rightFadeLight opacity-60`}
         ></div>
         <div
           className={`w-full h-[30px] absolute pr-[100px] top-[107px] flex flex-row justify-end items-end opacity-70`}
@@ -89,11 +89,10 @@ const MagicDragon_ = ({}: MagicDragon_Props) => {
               className={`w-[120px] h-[40px] mr-[12px] relative top-[-50px] ml-auto rounded-[4px] bg-white/80 flex flex-row justify-center items-center`}
             >
               <p className={`text-[13px] text-black/70 font-black`}>
-                Learn more
+                Make Order
               </p>
             </div>
           </div>
-          
         </div>
         <div
           className={`absolute top-[60px] left-[150px] w-[150px] h-[80px] opacity-80`}
@@ -104,6 +103,121 @@ const MagicDragon_ = ({}: MagicDragon_Props) => {
               className={`left-[150px] w-[150px]`}
             />
           </div>
+        </div>
+      </div>
+      <div
+        className={`w-[1200px] h-[100px] relative top-[-180px] mb-[-25px] flex flex-col justify-center items-center`}
+      >
+        <p className={`text-[30px] font-black text-white/70 mb-2`}>
+          Recent Strain Imports
+        </p>
+        <p
+          className={`w-[40%] mx-auto text-[14px] text-white/50 Work_ font-light text-center relative`}
+        >
+          Magna irure dolor labore nulla eu commodo deserunt labore duis laboris
+          irure. Ipsum eu laborum ex aliqua sunt est ulla.
+        </p>
+      </div>
+      <div
+        className={`w-[1200] h-[350px] relative top-[-100px] flex flex-row justify-center items-center`}
+      >
+        <div
+          className={`w-[300px] h-[400px] mx-4 rounded-[10px] bg-[#212121] border-solid border-[1px] border-[#4de850]/50 flex flex-col pt-[40px]`}
+        >
+          <img
+            src={`/assets/images/NugZero.png`}
+            className={`w-[280px] mx-auto object-cover opacity-70`}
+          />
+          <p
+            className={`text-[20px] text-[#4de850]/80 Monts_ font-black text-center relative top-[5px]`}
+          >
+            AFRODITE
+          </p>
+          <p
+            className={`w-[95%] mx-auto text-[13px] text-white/70 Work_ font-light text-center relative top-[10px]`}
+          >
+            Magna irure dolor labore nulla eu commodo deserunt labore duis
+            laboris irure. Ipsum eu laborum ex aliqua sunt est ulla.
+          </p>
+        </div>
+        <div
+          className={`w-[300px] h-[400px] mx-4 rounded-[10px] bg-[#212121] border-solid border-[1px] border-transparent flex flex-col pt-[40px]`}
+        >
+          <img
+            src={`/assets/images/NugTwo.png`}
+            className={`w-[140px] mx-auto object-cover opacity-90`}
+          />
+          <p
+            className={`text-[20px] text-[#4de850]/60 Monts_ font-black relative top-[25px] text-center`}
+          >
+            PURPLE MONKEY BALLS
+          </p>
+          <p
+            className={`w-[95%] mx-auto text-[13px] text-white/50 Work_ font-light text-center relative top-[30px]`}
+          >
+            Magna irure dolor labore nulla eu commodo deserunt labore duis
+            laboris irure. Ipsum eu laborum ex aliqua sunt est ulla.
+          </p>
+        </div>
+        <div
+          className={`w-[300px] h-[400px] mx-4 rounded-[10px] bg-[#212121] border-solid border-[1px] border-transparent flex flex-col pt-[40px]`}
+        >
+          <img
+            src={`/assets/images/NugThree.png`}
+            className={`w-[180px] mx-auto object-cover opacity-80 rotate-[123deg] mt-[35px]`}
+          />
+          <p
+            className={`text-[20px] text-[#4de850]/60 Monts_ font-black relative top-[70px] text-center`}
+          >
+            STINKY PINKY
+          </p>
+          <p
+            className={`w-[95%] mx-auto text-[13px] text-white/50 Work_ font-light text-center relative top-[75px]`}
+          >
+            Magna irure dolor labore nulla eu commodo deserunt labore duis
+            laboris irure. Ipsum eu laborum ex aliqua sunt est ulla.
+          </p>
+        </div>
+      </div>
+      <div className={`w-full h-[500px] relative overflow-hidden`}>
+        <img
+          src={`/assets/images/HoldingJoint.jpg`}
+          className={`w-full object-cover relative bottom-[500px]`}
+        />
+        <div
+          className={`w-full h-full absolute top-0 right-0 bg-[#2e2c2d]/30 flex flex-col justify-center items-center`}
+        >
+          <p
+            className={`text-[130px] font-black tracking-[30px] word-spacing-wide Monts_ text-white/60 relative`}
+          >
+            SMOKE ROOMS
+          </p>
+        </div>
+        <div
+          className={`w-full h-full absolute top-0 right-0 flex flex-col pt-[50px] justify-center items-center`}
+        >
+          <p
+            className={`text-[25px] font-thin italic Monts_ top-[95px] left-[275px] text-white/60 relative`}
+          >
+            Magic Dragon Centurion is now open..
+          </p>
+          <p
+            className={`text-[15px] font-black italic Monts_ top-[100px] left-[410px] text-[#4de850]/60 relative`}
+          >
+            9AM to 5PM - Weekdays
+          </p>
+          <p
+            className={`text-[15px] font-black italic Monts_ top-[100px] left-[416px] text-[#4de850]/60 relative`}
+          >
+            10AM to 3PM - Weekends
+          </p>
+          <div
+              className={`w-[120px] h-[40px] relative top-[130px] left-[460px] rounded-[4px] bg-white/80 flex flex-row justify-center items-center`}
+            >
+              <p className={`text-[13px] text-black/70 font-black`}>
+                Book A Visit
+              </p>
+            </div>
         </div>
       </div>
     </div>

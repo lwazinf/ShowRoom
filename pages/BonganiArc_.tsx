@@ -23,7 +23,7 @@ const BonganiArc_ = ({}: BonganiArc_Props) => {
           />
         </div>
         <div
-          className={`absolute top-0 w-full h-screen flex flex-col items-start justify-start overflow-hidden topFade`}
+          className={`absolute top-0 w-full h-screen flex flex-col items-start justify-start overflow-hidden topFadeDark`}
         />
         {/* 👇️👇️👇️ Services */}
         <div
@@ -196,7 +196,7 @@ const BonganiArc_ = ({}: BonganiArc_Props) => {
             </div>
           </div>
         </div>
-        <div className={`absolute bottom-0 w-full h-[300px] bottomFade`}/>
+        <div className={`absolute bottom-0 w-full h-[300px] bottomFadeDark`}/>
       </div>
       <Awards_/>
       <AboutUs_/>
