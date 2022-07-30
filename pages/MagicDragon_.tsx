@@ -16,10 +16,12 @@ import {
   faTvAlt,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 
 interface MagicDragon_Props {}
 
 const MagicDragon_ = ({}: MagicDragon_Props) => {
+  const position = [51.505, -0.09]
   return (
     <div
       className={`flex flex-col items-center justify-start min-h-screen w-full relative overflow-hidden z-[-2] bg-[#2e2c2d]`}
@@ -258,7 +260,7 @@ const MagicDragon_ = ({}: MagicDragon_Props) => {
           >
             <img
               src={`/assets/images/SmokeRoom.jpg`}
-              className={`w-full object-cover relative bottom-[400px] opacity-50`}
+              className={`w-full object-cover relative bottom-[400px] opacity-70`}
             />
           </div>
           <div
@@ -266,7 +268,7 @@ const MagicDragon_ = ({}: MagicDragon_Props) => {
           >
             <img
               src={`https://images.pexels.com/photos/7667812/pexels-photo-7667812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1`}
-              className={`W-full object-cover relative bottom-[70px] opacity-70`}
+              className={`W-full object-cover relative bottom-[70px] opacity-90`}
             />
           </div>
         </div>
@@ -278,7 +280,7 @@ const MagicDragon_ = ({}: MagicDragon_Props) => {
           className={`w-full h-[100px] relative flex flex-col justify-center items-center bg-[#2e2c2d]/60 pt-[50px]`}
         >
           <p className={`text-[30px] font-black text-white/70 mb-2`}>
-            Our Private Rooms.. High Standards!
+            Welcome To Our Private Rooms!
           </p>
           <p
             className={`w-[30%] mx-auto text-[14px] text-white/50 Work_ font-light text-center relative`}
@@ -398,6 +400,11 @@ const MagicDragon_ = ({}: MagicDragon_Props) => {
               </p>
             </div>
           </div>
+        </div>
+        <div
+          className={`w-full h-full flex flex-row justify-center items-center bg-[#2e2c2d]/60 py-[25px] pt-[50px]`}
+        >
+         {/* Map Missing */}
         </div>
       </div>
     </div>
