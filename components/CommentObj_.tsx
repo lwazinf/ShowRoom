@@ -2,7 +2,7 @@ import { faReply, faThumbsUp } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import { useRecoilState } from "recoil";
-import { commentState } from "../../atoms/atoms";
+import { commentState } from "./atoms/atoms";
 import SubCommentObj_ from "./SubCommentObj_";
 
 interface CommentObj_Props {}

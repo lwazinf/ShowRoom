@@ -4,8 +4,8 @@ import { useRef, useState } from "react";
 import { TwitterShareButton } from "react-share";
 import { useRecoilState } from "recoil";
 import { commentState } from "./atoms/atoms";
-import CommentObj_ from "./elements/01_/CommentObj_";
-import ControlsObj_ from "./elements/01_/ControlsObj_";
+import CommentObj_ from "./CommentObj_";
+import ControlsObj_ from "./ControlsObj_";
 
 interface DC01_Props {}
 
