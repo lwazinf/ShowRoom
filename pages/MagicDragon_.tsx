@@ -24,12 +24,12 @@ const MagicDragon_ = ({}: MagicDragon_Props) => {
   const position = [51.505, -0.09]
   return (
     <div
-      className={`flex flex-col items-center justify-start min-h-screen w-full relative overflow-hidden z-[-2] bg-[#2e2c2d]`}
+      className={`flex flex-col items-center justify-start min-h-screen w-[1680px] relative overflow-hidden bg-[#2e2c2d]`}
     >
-      <div className={`w-full h-screen relative`}>
+      <div className={`[1680px] h-screen relative`}>
         <img
           src={`/assets/images/Plant.jpg`}
-          className={`h-full w-full object-cover z-[0]`}
+          className={`h-full w-[1680px] object-cover`}
         />
         <div className={`absolute top-0 w-full h-full bottomFadeLight`}></div>
         <div
@@ -62,25 +62,7 @@ const MagicDragon_ = ({}: MagicDragon_Props) => {
             onClick={() => {}}
           />
         </div>
-        <div
-          className={`w-full h-[30px] opacity-90 absolute top-[110px] flex flex-row justify-center items-center`}
-        >
-          <p
-            className={`text-white font-light Oswald_ text-[25px] opacity-80 hover:opacity-100 transition-all duration-400 mx-4 cursor-pointer`}
-          >
-            Shop
-          </p>
-          <p
-            className={`text-[#4de850] font-light Oswald_ text-[25px] opacity-100 hover:opacity-800 transition-all duration-400 mx-4 cursor-pointer`}
-          >
-            Contact
-          </p>
-          <p
-            className={`text-white font-light Oswald_ text-[25px] opacity-80 hover:opacity-100 transition-all duration-400 mx-4 cursor-pointer`}
-          >
-            About Us
-          </p>
-        </div>
+        
         <div
           className={`w-full h-screen bg-black/10 absolute top-0 right-0 flex flex-row items-center justify-center`}
         >
@@ -99,13 +81,32 @@ const MagicDragon_ = ({}: MagicDragon_Props) => {
               HIGH
             </p>
             <div
-              className={`w-[120px] h-[40px] mr-[12px] relative top-[-50px] ml-auto rounded-[4px] bg-[#4de850]/60 flex flex-row justify-center items-center`}
+              className={`w-[120px] h-[40px] mr-[12px] relative top-[-50px] ml-auto rounded-[4px] bg-[#4de850]/60 flex flex-row justify-center items-center cursor-pointer`}
             >
               <p className={`text-[13px] text-black/70 font-black`}>
                 Make Order
               </p>
             </div>
           </div>
+        </div>
+        <div
+          className={`w-full h-[30px] opacity-90 absolute top-[110px] flex flex-row justify-center items-center z-2`}
+        >
+          <p
+            className={`text-white font-light Oswald_ text-[25px] opacity-80 hover:opacity-100 transition-all duration-400 mx-4 cursor-pointer`}
+          >
+            Shop
+          </p>
+          <p
+            className={`text-[#4de850] font-light Oswald_ text-[25px] opacity-100 hover:opacity-800 transition-all duration-400 mx-4 cursor-pointer`}
+          >
+            Contact
+          </p>
+          <p
+            className={`text-white font-light Oswald_ text-[25px] opacity-80 hover:opacity-100 transition-all duration-400 mx-4 cursor-pointer`}
+          >
+            About Us
+          </p>
         </div>
         <div
           className={`absolute top-[60px] left-[150px] w-[150px] h-[80px] opacity-80`}
@@ -135,7 +136,7 @@ const MagicDragon_ = ({}: MagicDragon_Props) => {
         className={`w-[1200] h-[350px] relative top-[-100px] flex flex-row justify-center items-center`}
       >
         <div
-          className={`w-[300px] h-[400px] mx-4 rounded-[10px] bg-[#212121] border-solid border-[1px] border-[#4de850]/50 flex flex-col pt-[40px]`}
+          className={`w-[300px] h-[400px] mx-4 rounded-[10px] bg-[#212121] border-solid border-[1px] border-[#4de850]/50 flex flex-col pt-[40px] cursor-pointer`}
         >
           <img
             src={`/assets/images/NugZero.png`}
@@ -154,7 +155,7 @@ const MagicDragon_ = ({}: MagicDragon_Props) => {
           </p>
         </div>
         <div
-          className={`w-[300px] h-[400px] mx-4 rounded-[10px] bg-[#212121] border-solid border-[1px] border-transparent flex flex-col pt-[40px]`}
+          className={`w-[300px] h-[400px] mx-4 rounded-[10px] bg-[#212121] border-solid border-[1px] border-transparent flex flex-col pt-[40px] hover:border-[#4de850]/50 transition-all duration-200`}
         >
           <img
             src={`/assets/images/NugTwo.png`}
@@ -173,7 +174,7 @@ const MagicDragon_ = ({}: MagicDragon_Props) => {
           </p>
         </div>
         <div
-          className={`w-[300px] h-[400px] mx-4 rounded-[10px] bg-[#212121] border-solid border-[1px] border-transparent flex flex-col pt-[40px]`}
+          className={`w-[300px] h-[400px] mx-4 rounded-[10px] bg-[#212121] border-solid border-[1px] border-transparent flex flex-col pt-[40px] hover:border-[#4de850]/50 transition-all duration-200`}
         >
           <img
             src={`/assets/images/NugThree.png`}
@@ -225,9 +226,9 @@ const MagicDragon_ = ({}: MagicDragon_Props) => {
             10AM to 3PM - Weekends
           </p>
           <div
-            className={`w-[120px] h-[40px] relative top-[130px] left-[460px] rounded-[4px] bg-[#4de850]/60 flex flex-row justify-center items-center`}
+            className={`w-[120px] h-[40px] relative top-[130px] left-[460px] rounded-[4px] bg-[#4de850]/60 flex flex-row justify-center items-center cursor-pointer`}
           >
-            <p className={`text-[13px] text-black/70 font-black`}>
+            <p className={`text-[13px] text-black/70 font-black pointer-events-none`}>
               Book A Visit
             </p>
           </div>
