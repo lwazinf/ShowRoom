@@ -4,7 +4,7 @@ const MD_Strains_ = ({}: MD_Strains_Props) => {
   return (
     <div>
       <div
-        className={`w-[1200px] h-[100px] relative top-[-180px] mb-[-25px] flex flex-col justify-center items-center`}
+        className={`w-[1200px] h-[200px] relative top-[-100px] mb-[0px] flex flex-col justify-center items-center`}
       >
         <p className={`text-[30px] font-black text-white/70 mb-2`}>
           Recent Strain Imports

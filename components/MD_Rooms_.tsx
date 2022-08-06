@@ -15,13 +15,13 @@ const MD_Rooms_ = ({}: MD_Rooms_Props) => {
       <div className={`w-full h-[500px] relative overflow-hidden`}>
         <img
           src={`/assets/images/HoldingJoint.jpg`}
-          className={`w-full object-cover relative bottom-[500px]`}
+          className={`w-full object-cover relative bottom-[270px]`}
         />
         <div
           className={`w-full h-full absolute top-0 right-0 bg-[#2e2c2d]/30 flex flex-col justify-center items-center`}
         >
           <p
-            className={`text-[130px] font-black tracking-[30px] word-spacing-wide Monts_ text-white/60 relative`}
+            className={`text-[90px] bottom-[-20px] font-black tracking-[30px] word-spacing-wide Monts_ text-white/60 relative`}
           >
             SMOKE ROOMS
           </p>

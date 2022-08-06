@@ -10,7 +10,7 @@ interface MD_Hero_Props {
 const MD_Hero_ = ({}:MD_Hero_Props) => {
     return ( 
         <div>
-        <div className={`[1680px] h-screen relative`}>
+        <div className={`[1680px] h-[690px] relative`}>
         <img
           src={`/assets/images/Plant.jpg`}
           className={`h-full w-[1680px] object-cover`}
@@ -48,7 +48,7 @@ const MD_Hero_ = ({}:MD_Hero_Props) => {
         </div>
 
         <div
-          className={`w-full h-screen bg-black/10 absolute top-0 right-0 flex flex-row items-center justify-center`}
+          className={`w-full h-[690px] bg-black/10 absolute top-0 right-0 flex flex-row items-center justify-center`}
         >
           <div className={`w-[500px] h-[400px] rounded-[4px] relative right-9`}>
             <p className={`text-[60px] font-black text-white/70 text-right`}>
@@ -65,7 +65,7 @@ const MD_Hero_ = ({}:MD_Hero_Props) => {
               HIGH
             </p>
             <div
-              className={`w-[120px] h-[40px] mr-[12px] relative top-[-50px] ml-auto rounded-[4px] bg-[#4de850]/60 flex flex-row justify-center items-center cursor-pointer`}
+              className={`w-[120px] h-[40px] mr-[12px] relative top-[0px] ml-auto rounded-[4px] bg-[#4de850]/60 flex flex-row justify-center items-center cursor-pointer`}
             >
               <p className={`text-[13px] text-black/70 font-black`}>
                 Make Order
