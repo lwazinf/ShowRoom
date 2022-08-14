@@ -14,7 +14,7 @@ import { useRef, useState } from "react";
 
 interface BT_CreateObj_Props {}
 
-const BT_CreateObj_ = () => {
+const BT_CreateObj_ = ({}:BT_CreateObj_) => {
   const [fund_, setFund_] = useState("50");
   const [spots_, setSpots_] = useState("N/A");
   const [split_, setSplit_] = useState("3");
@@ -33,9 +33,10 @@ const BT_CreateObj_ = () => {
         className={`absolute bottom-0 left-0 flex flex-row justify-center items-center w-full h-[40px]`}
       >
         <div
-          className={`opacity-50 hover:opacity-100 transition-all duration-200 flex flex-row justify-center items-center cursor-pointer mx-1`}
+          className={`opacity-50 hover:opacity-100 transition-all duration-200 flex flex-row justify-start items-center cursor-pointer w-[80px]`}
           onClick={() => {
             setPosition_("ml-[-100px]");
+            setFund_("");
             if (visibility_ == "opacity-0 pointer-events-none") {
               setVisibility_("opacity-100 pointer-events-auto");
             } else if (
@@ -57,12 +58,12 @@ const BT_CreateObj_ = () => {
             ${fund_}
           </p>
         </div>
-
+        
         <div
-          className={`opacity-50 hover:opacity-100 transition-all duration-200 flex flex-row justify-center items-center cursor-pointer mx-1`}
+          className={`opacity-50 hover:opacity-100 transition-all duration-200 flex flex-row justify-start items-center cursor-pointer w-[80px]`}
           onClick={() => {
             setPosition_("ml-[-45px]");
-            console.log("cleared");
+            setSpots_("");
             if (visibility_ == "opacity-0 pointer-events-none") {
               setVisibility_("opacity-100 pointer-events-auto");
             } else if (
@@ -86,10 +87,10 @@ const BT_CreateObj_ = () => {
         </div>
 
         <div
-          className={`opacity-50 hover:opacity-100 transition-all duration-200 flex flex-row justify-center items-center cursor-pointer mx-1`}
+          className={`opacity-50 hover:opacity-100 transition-all duration-200 flex flex-row justify-start items-center cursor-pointer w-[80px]`}
           onClick={() => {
             setPosition_("ml-[5px]");
-
+            setSplit_("");
             if (visibility_ == "opacity-0 pointer-events-none") {
               setVisibility_("opacity-100 pointer-events-auto");
             } else if (
@@ -175,6 +176,7 @@ const BT_CreateObj_ = () => {
       >
         <input
           type={"text"}
+          maxlength={`${position_ != 'ml-[5px]' ? '3' : '2'}`}
           className={`w-full h-full bg-transparent text-center text-white/80 font-medium text-[13px]`}
           onChange={(e) => {
             position_ == "ml-[5px]"
@@ -184,11 +186,7 @@ const BT_CreateObj_ = () => {
               : setFund_(e.target.value);
           }}
           placeholder={
-            position_ == "ml-[5px]"
-              ? split_
-              : position_ == "ml-[-45px]"
-              ? spots_
-              : fund_
+            '???'
           }
         />
       </div>
