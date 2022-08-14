@@ -12,9 +12,9 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useRef, useState } from "react";
 
-interface CreateObj_Props {}
+interface BT_CreateObj_Props {}
 
-const CreateObj_ = () => {
+const BT_CreateObj_ = () => {
   const [fund_, setFund_] = useState("50");
   const [spots_, setSpots_] = useState("N/A");
   const [split_, setSplit_] = useState("3");
@@ -207,4 +207,4 @@ const CreateObj_ = () => {
   );
 };
 
-export default CreateObj_;
+export default BT_CreateObj_;

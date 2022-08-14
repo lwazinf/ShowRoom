@@ -1,8 +1,8 @@
 import { faFacebook, faGoogle } from "@fortawesome/free-brands-svg-icons";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import AboutUs_ from "../components/AboutUs_";
-import Awards_ from "../components/Awards_";
+import BA_AboutUs_ from "../components/BA_AboutUs_";
+import BA_Awards_ from "../components/BA_Awards_";
 
 interface BonganiArc_Props {}
 
@@ -198,8 +198,8 @@ const BonganiArc_ = ({}: BonganiArc_Props) => {
         </div>
         <div className={`absolute bottom-0 w-full h-[300px] bottomFadeDark`}/>
       </div>
-      <Awards_/>
-      <AboutUs_/>
+      <BA_Awards_/>
+      <BA_AboutUs_/>
     </div>
   );
 };

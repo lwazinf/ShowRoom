@@ -1,8 +1,8 @@
-interface AboutUs_Props {
+interface BA_AboutUs_Props {
     
 }
  
-const AboutUs_ = ({}:AboutUs_Props) => {
+const BA_AboutUs_ = ({}:BA_AboutUs_Props) => {
     return ( 
         <div className={`w-full h-[500px] bg-black relative overflow-hidden flex flex-row`}>
                 <img className={`h-[400px] object-cover absolute top-[50px] z-[0] left-[100px] opacity-90 rounded-[2px]`} src={`/assets/images/Drill.jpg`}></img>
@@ -21,4 +21,4 @@ const AboutUs_ = ({}:AboutUs_Props) => {
      );
 }
  
-export default AboutUs_;
+export default BA_AboutUs_;

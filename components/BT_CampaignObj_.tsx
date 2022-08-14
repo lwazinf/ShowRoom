@@ -15,7 +15,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Bg_ from "./Bg_";
 
-interface CampaignObj_Props {
+interface BT_CampaignObj_Props {
   tweet_: string,
   fund_: number,
   spots_: number,
@@ -23,7 +23,7 @@ interface CampaignObj_Props {
   // media_: string
 }
 
-const CampaignObj_ = ({tweet_, fund_, spots_, split_}: CampaignObj_Props) => {
+const BT_CampaignObj_ = ({tweet_, fund_, spots_, split_}: BT_CampaignObj_Props) => {
   // 👇️👇️👇️ Recoil atoms..
   // const [notification_, setNotification_] = useRecoilState(notificationState);
   const [options_, setOptions_] = useState(false);
@@ -299,4 +299,4 @@ const CampaignObj_ = ({tweet_, fund_, spots_, split_}: CampaignObj_Props) => {
   );
 };
 
-export default CampaignObj_;
+export default BT_CampaignObj_;

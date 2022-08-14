@@ -1,8 +1,8 @@
-interface Awards_Props {
+interface BA_Awards_Props {
     
 }
  
-const Awards_ = ({}:Awards_Props) => {
+const BA_Awards_ = ({}:BA_Awards_Props) => {
     return ( 
         <div className={`w-full min-h-[200px] bg-black flex flex-col items-start justify-start`}>
         <div className={`w-full h-[40px] mt-4 flex flex-row items-center justify-center mb-4`}>
@@ -19,4 +19,4 @@ const Awards_ = ({}:Awards_Props) => {
      );
 }
  
-export default Awards_;
+export default BA_Awards_;
