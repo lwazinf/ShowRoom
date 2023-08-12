@@ -60,7 +60,7 @@ const MD_Hero_ = ({}: MD_Hero_Props) => {
           >
             <div className={`relative overflow-hidden w-full h-full`}>
               <img
-                src={`/assets/images/Plant2.png`}
+                src={`/assets/images/plant2.png`}
                 className={`left-[150px] w-[150px]`}
               />
             </div>
