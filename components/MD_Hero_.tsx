@@ -60,7 +60,7 @@ const MD_Hero_ = ({}: MD_Hero_Props) => {
           >
             <div className={`relative overflow-hidden w-full h-full`}>
               <img
-                src={`https://magicdragon.shop/wp-content/uploads/2021/09/cropped-MD-logo-slogan-PNG.png`}
+                src={`/assets/images/Plant2.png`}
                 className={`left-[150px] w-[150px]`}
               />
             </div>
