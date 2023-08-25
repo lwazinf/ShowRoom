@@ -5,7 +5,8 @@
 
 @layer base {
   body {
-    background: #222222;
+    background: #00b140;
+/*     background: #222222; */
   }
   scrollbar {
     display: none;
